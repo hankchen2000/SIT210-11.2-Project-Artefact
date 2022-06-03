@@ -65,7 +65,7 @@ try:
 	while True:
 		distance = distanceStart()
 		print("Distance:{}cm".format(distance))
-		if distance < 100:
+		if distance < 10:
 			ledStart()
 		time.sleep(INTERVAL)
 except KeyboardInterrupt:
